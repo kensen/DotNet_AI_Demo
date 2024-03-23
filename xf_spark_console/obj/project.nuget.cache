@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "CfSpvZIPp+05peQMjYj6ohsmAbM3CKNrtT4cWvltQDYxd4tRVcconpSxEqVBlyUHk0Pw6sRD/tDlYb1GKZRS4g==",
+  "dgSpecHash": "vMixYf8jNe4kU2fvTluIugla2WRxmC/n616fUQORBVaxychBk7UwInlHLDaNqsA3Pb4XdPpwzc7PXzmBxpN99w==",
   "success": true,
   "projectFilePath": "F:\\Source\\DotNet_AI_Demo\\xf_spark_console\\xf_spark_console.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\kense\\.nuget\\packages\\sdcb.sparkdesk\\3.0.0\\sdcb.sparkdesk.3.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

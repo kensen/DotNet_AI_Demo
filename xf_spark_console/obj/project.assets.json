@@ -1,11 +1,45 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "Sdcb.SparkDesk/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Sdcb.SparkDesk.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Sdcb.SparkDesk.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Sdcb.SparkDesk/3.0.0": {
+      "sha512": "QpkDANxwblJbR4fMi3KNsBaQjtt+ORAfaftc/mfjwJZ3Oc1hkwpD1gDM0EKT4NuZpGTIiM1kZetC788RuqNXwg==",
+      "type": "package",
+      "path": "sdcb.sparkdesk/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Sdcb.SparkDesk.dll",
+        "lib/net6.0/Sdcb.SparkDesk.xml",
+        "lib/netstandard2.0/Sdcb.SparkDesk.dll",
+        "lib/netstandard2.0/Sdcb.SparkDesk.xml",
+        "sdcb.sparkdesk.3.0.0.nupkg.sha512",
+        "sdcb.sparkdesk.nuspec",
+        "spark-icon.png"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "Sdcb.SparkDesk >= 3.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\kense\\.nuget\\packages\\": {},
@@ -56,6 +90,12 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
+        "dependencies": {
+          "Sdcb.SparkDesk": {
+            "target": "Package",
+            "version": "[3.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
