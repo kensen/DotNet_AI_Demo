@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("xf_spark_console")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b5d00de669aa2dec430ccf602d3ebecc8373e57")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7220f2687c903251a059761b74fc109e635493c1")]
 [assembly: System.Reflection.AssemblyProductAttribute("xf_spark_console")]
 [assembly: System.Reflection.AssemblyTitleAttribute("xf_spark_console")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
