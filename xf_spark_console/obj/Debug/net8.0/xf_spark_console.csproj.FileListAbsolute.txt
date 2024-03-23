@@ -1,0 +1,15 @@
+F:\Source\DotNet_AI_Demo\xf_spark_console\bin\Debug\net8.0\xf_spark_console.exe
+F:\Source\DotNet_AI_Demo\xf_spark_console\bin\Debug\net8.0\xf_spark_console.deps.json
+F:\Source\DotNet_AI_Demo\xf_spark_console\bin\Debug\net8.0\xf_spark_console.runtimeconfig.json
+F:\Source\DotNet_AI_Demo\xf_spark_console\bin\Debug\net8.0\xf_spark_console.dll
+F:\Source\DotNet_AI_Demo\xf_spark_console\bin\Debug\net8.0\xf_spark_console.pdb
+F:\Source\DotNet_AI_Demo\xf_spark_console\obj\Debug\net8.0\xf_spark_console.GeneratedMSBuildEditorConfig.editorconfig
+F:\Source\DotNet_AI_Demo\xf_spark_console\obj\Debug\net8.0\xf_spark_console.AssemblyInfoInputs.cache
+F:\Source\DotNet_AI_Demo\xf_spark_console\obj\Debug\net8.0\xf_spark_console.AssemblyInfo.cs
+F:\Source\DotNet_AI_Demo\xf_spark_console\obj\Debug\net8.0\xf_spark_console.csproj.CoreCompileInputs.cache
+F:\Source\DotNet_AI_Demo\xf_spark_console\obj\Debug\net8.0\xf_spark_console.sourcelink.json
+F:\Source\DotNet_AI_Demo\xf_spark_console\obj\Debug\net8.0\xf_spark_console.dll
+F:\Source\DotNet_AI_Demo\xf_spark_console\obj\Debug\net8.0\refint\xf_spark_console.dll
+F:\Source\DotNet_AI_Demo\xf_spark_console\obj\Debug\net8.0\xf_spark_console.pdb
+F:\Source\DotNet_AI_Demo\xf_spark_console\obj\Debug\net8.0\xf_spark_console.genruntimeconfig.cache
+F:\Source\DotNet_AI_Demo\xf_spark_console\obj\Debug\net8.0\ref\xf_spark_console.dll
