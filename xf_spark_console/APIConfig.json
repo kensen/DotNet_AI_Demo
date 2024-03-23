@@ -1,0 +1,20 @@
+{
+  "APIName": "SparkDesk",
+  "APPID": "XXXXX",
+  "APISecret": "XXXXX",
+  "APIKey": "XXXXX",
+  "ModelUrl": [
+    {
+      "ModelName": "xf_v1.5",
+      "Url": "ws(s)://spark-api.xf-yun.com/v1.1/chat"
+    },
+    {
+      "ModelName": "xf_v3.0",
+      "Url": "ws(s)://spark-api.xf-yun.com/v3.1/chat"
+    },
+    {
+      "ModelName": "xf_v3.5",
+      "Url": "ws(s)://spark-api.xf-yun.com/v3.5/chat"
+    }
+  ]
+}
