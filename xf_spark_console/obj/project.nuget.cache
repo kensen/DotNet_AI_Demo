@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "H2XGqFQ3Yo2VwwnyOoExKJ3+ECR6GchT10xlX44e6MJoeDzfbTGzuXnM2q4Cl9sXxsIxeSDwZqu9+4P8aDcNqw==",
+  "dgSpecHash": "K7whvRlYWi2SWw6uCm1owJzx1MncRE7w5JrXXnApVE6rGsnyiJZuYnKGl7/1ZhiHpbe1T5HYuJe1JKJPuzAjwQ==",
   "success": true,
   "projectFilePath": "F:\\Source\\DotNet_AI_Demo\\xf_spark_console\\xf_spark_console.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kense\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\kense\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\kense\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.1\\microsoft.extensions.configuration.binder.8.0.1.nupkg.sha512",
     "C:\\Users\\kense\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\8.0.0\\microsoft.extensions.configuration.fileextensions.8.0.0.nupkg.sha512",
     "C:\\Users\\kense\\.nuget\\packages\\microsoft.extensions.configuration.json\\8.0.0\\microsoft.extensions.configuration.json.8.0.0.nupkg.sha512",
     "C:\\Users\\kense\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\8.0.0\\microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",

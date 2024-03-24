@@ -13,3 +13,16 @@ F:\Source\DotNet_AI_Demo\xf_spark_console\obj\Debug\net8.0\refint\xf_spark_conso
 F:\Source\DotNet_AI_Demo\xf_spark_console\obj\Debug\net8.0\xf_spark_console.pdb
 F:\Source\DotNet_AI_Demo\xf_spark_console\obj\Debug\net8.0\xf_spark_console.genruntimeconfig.cache
 F:\Source\DotNet_AI_Demo\xf_spark_console\obj\Debug\net8.0\ref\xf_spark_console.dll
+F:\Source\DotNet_AI_Demo\xf_spark_console\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+F:\Source\DotNet_AI_Demo\xf_spark_console\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\Source\DotNet_AI_Demo\xf_spark_console\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+F:\Source\DotNet_AI_Demo\xf_spark_console\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+F:\Source\DotNet_AI_Demo\xf_spark_console\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+F:\Source\DotNet_AI_Demo\xf_spark_console\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+F:\Source\DotNet_AI_Demo\xf_spark_console\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
+F:\Source\DotNet_AI_Demo\xf_spark_console\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+F:\Source\DotNet_AI_Demo\xf_spark_console\bin\Debug\net8.0\Sdcb.SparkDesk.dll
+F:\Source\DotNet_AI_Demo\xf_spark_console\obj\Debug\net8.0\xf_spark_console.csproj.AssemblyReference.cache
+F:\Source\DotNet_AI_Demo\xf_spark_console\obj\Debug\net8.0\xf_spark.4403AEA2.Up2Date
+F:\Source\DotNet_AI_Demo\xf_spark_console\bin\Debug\net8.0\APIConfig.json
+F:\Source\DotNet_AI_Demo\xf_spark_console\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
