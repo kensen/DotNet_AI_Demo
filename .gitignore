@@ -5,3 +5,5 @@
 /xf_spark_console/.vs/xf_spark_console/FileContentIndex
 /xf_spark_console/.vs/xf_spark_console/DesignTimeBuild/.dtbcache.v2
 /xf_spark_console/APIConfig.json
+.bin     #表示忽略所有 .bin 结尾的文件或目录
+.vs
