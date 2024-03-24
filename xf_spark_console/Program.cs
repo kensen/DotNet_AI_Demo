@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using xf_spark_console;
+using xf_spark_console.SparkDesk;
 
 var t=ConfigRead.GetApiConfigDto();
 
@@ -17,4 +18,10 @@ foreach (var m in t.ModelUrls)
 string userInput = Console.ReadLine();
 
 Console.WriteLine("您输入的内容是：");
-Console.WriteLine(userInput);
+//Console.WriteLine(userInput);
+
+SparkDeskApi sparkDesk = new SparkDeskApi(t);
+
+var msg = sparkDesk.Chat(userInput, t.ModelUrls[0].ModelName).Result;
+
+Console.WriteLine(msg);
