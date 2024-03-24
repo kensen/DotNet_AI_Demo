@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{6D624E34-D9D4-41DA-9C43-F3C3B446B844}|xf_spark_console.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D624E34-D9D4-41DA-9C43-F3C3B446B844}|xf_spark_console.csproj|f:\\source\\dotnet_ai_demo\\xf_spark_console\\sparkdesk\\sparkdeskapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D624E34-D9D4-41DA-9C43-F3C3B446B844}|xf_spark_console.csproj|solutionrelative:sparkdesk\\sparkdeskapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6D624E34-D9D4-41DA-9C43-F3C3B446B844}|xf_spark_console.csproj|f:\\source\\dotnet_ai_demo\\xf_spark_console\\apiconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6D624E34-D9D4-41DA-9C43-F3C3B446B844}|xf_spark_console.csproj|solutionrelative:apiconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D624E34-D9D4-41DA-9C43-F3C3B446B844}|xf_spark_console.csproj|f:\\source\\dotnet_ai_demo\\xf_spark_console\\sparkdesk\\sparkdeskapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D624E34-D9D4-41DA-9C43-F3C3B446B844}|xf_spark_console.csproj|solutionrelative:sparkdesk\\sparkdeskapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D624E34-D9D4-41DA-9C43-F3C3B446B844}|xf_spark_console.csproj|f:\\source\\dotnet_ai_demo\\xf_spark_console\\configread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,34 +62,31 @@
               "RelativeToolTip": "ConfigRead.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T02:11:41.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-24T02:11:41.446Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "APIConfig.json",
               "DocumentMoniker": "F:\\Source\\DotNet_AI_Demo\\xf_spark_console\\APIConfig.json",
               "RelativeDocumentMoniker": "APIConfig.json",
               "ToolTip": "F:\\Source\\DotNet_AI_Demo\\xf_spark_console\\APIConfig.json",
               "RelativeToolTip": "APIConfig.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-23T09:17:11.44Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-23T09:17:11.44Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SparkDeskApi.cs",
               "DocumentMoniker": "F:\\Source\\DotNet_AI_Demo\\xf_spark_console\\SparkDesk\\SparkDeskApi.cs",
               "RelativeDocumentMoniker": "SparkDesk\\SparkDeskApi.cs",
               "ToolTip": "F:\\Source\\DotNet_AI_Demo\\xf_spark_console\\SparkDesk\\SparkDeskApi.cs",
               "RelativeToolTip": "SparkDesk\\SparkDeskApi.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAWwDgAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T09:14:47.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-23T09:14:47.37Z"
             },
             {
               "$type": "Document",
@@ -99,7 +96,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "F:\\Source\\DotNet_AI_Demo\\xf_spark_console\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAACAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-23T08:45:28.915Z",
               "EditorCaption": ""
