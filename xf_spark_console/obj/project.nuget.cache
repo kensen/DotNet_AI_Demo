@@ -1,10 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "vMixYf8jNe4kU2fvTluIugla2WRxmC/n616fUQORBVaxychBk7UwInlHLDaNqsA3Pb4XdPpwzc7PXzmBxpN99w==",
+  "dgSpecHash": "H2XGqFQ3Yo2VwwnyOoExKJ3+ECR6GchT10xlX44e6MJoeDzfbTGzuXnM2q4Cl9sXxsIxeSDwZqu9+4P8aDcNqw==",
   "success": true,
   "projectFilePath": "F:\\Source\\DotNet_AI_Demo\\xf_spark_console\\xf_spark_console.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\kense\\.nuget\\packages\\sdcb.sparkdesk\\3.0.0\\sdcb.sparkdesk.3.0.0.nupkg.sha512"
+    "C:\\Users\\kense\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "C:\\Users\\kense\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\kense\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\8.0.0\\microsoft.extensions.configuration.fileextensions.8.0.0.nupkg.sha512",
+    "C:\\Users\\kense\\.nuget\\packages\\microsoft.extensions.configuration.json\\8.0.0\\microsoft.extensions.configuration.json.8.0.0.nupkg.sha512",
+    "C:\\Users\\kense\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\8.0.0\\microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\kense\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\8.0.0\\microsoft.extensions.fileproviders.physical.8.0.0.nupkg.sha512",
+    "C:\\Users\\kense\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\8.0.0\\microsoft.extensions.filesystemglobbing.8.0.0.nupkg.sha512",
+    "C:\\Users\\kense\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\kense\\.nuget\\packages\\sdcb.sparkdesk\\3.0.0\\sdcb.sparkdesk.3.0.0.nupkg.sha512",
+    "C:\\Users\\kense\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\kense\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }
