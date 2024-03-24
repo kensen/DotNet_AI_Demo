@@ -19,7 +19,6 @@ string userInput = Console.ReadLine();
 
 Console.WriteLine("您输入的内容是：");
 //Console.WriteLine(userInput);
-
 SparkDeskApi sparkDesk = new SparkDeskApi(t);
 
 var msg = sparkDesk.Chat(userInput, t.ModelUrls[0].ModelName).Result;
