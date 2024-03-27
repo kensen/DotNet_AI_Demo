@@ -17,7 +17,7 @@ foreach (var m in t.ModelUrls)
 
 string userInput = Console.ReadLine();
 
-Console.WriteLine("您输入的内容是：");
+//Console.WriteLine("您输入的内容是：");
 //Console.WriteLine(userInput);
 SparkDeskApi sparkDesk = new SparkDeskApi(t);
 
