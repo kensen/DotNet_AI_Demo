@@ -16,9 +16,7 @@ namespace xf_spark_console
         {
             IConfiguration configuration = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("APIConfig.json").Build();
-
             var apiConfig=new APIConfigDto();
-
             configuration.Bind(apiConfig);
             return apiConfig;
         }
