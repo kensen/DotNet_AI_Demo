@@ -1,8 +1,8 @@
 {
   "APIName": "SparkDesk",
-  "APPID": "XXXXX",
-  "APISecret": "XXXXX",
-  "APIKey": "XXXXX",
+  "APPID": "1adf1c89",
+  "APISecret": "YjhlMGM4ZmMxY2I1ODhlMzk3N2JkMWQ1",
+  "APIKey": "40081a964320035d064aa6533aafc83e",
   "ModelUrls": [
     {
       "ModelName": "xf_v1.5",
