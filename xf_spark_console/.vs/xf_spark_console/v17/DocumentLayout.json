@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,10 +43,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -70,8 +66,7 @@
               "RelativeToolTip": "ConfigRead.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T02:11:41.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-24T02:11:41.446Z"
             },
             {
               "$type": "Document",
@@ -93,7 +88,7 @@
               "RelativeDocumentMoniker": "SparkDesk\\SparkDeskApi.cs",
               "ToolTip": "F:\\Source\\DotNet_AI_Demo\\xf_spark_console\\SparkDesk\\SparkDeskApi.cs",
               "RelativeToolTip": "SparkDesk\\SparkDeskApi.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAjwBkAAAAMAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAjwBQAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-23T09:14:47.37Z",
               "EditorCaption": ""
@@ -109,6 +104,10 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-23T08:45:28.915Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
