@@ -30,10 +30,11 @@ namespace xf_spark_console.SparkDesk
                 case "xf_v1.5":
                     ChatResponse response = await client.ChatAsync(ModelVersion.V1_5, new ChatMessage[]
                     {
-                        ChatMessage.FromUser("系统提示：你叫张三，一名5岁男孩，你在金色摇篮幼儿园上学，你的妈妈叫李四，是一名工程师"),
+                        ChatMessage.FromUser("系统提示：你叫张三，一名5岁男孩，你在金色摇篮幼儿园上学，你的妈妈叫李四，是一名工程师。"),
                         ChatMessage.FromUser($"{questionText}"), //$"你好小朋友，我是周老师，你在哪上学？"
                     });
                     msg = response.Text;
+
                     break;
                 case "xf_v3.0":
                     StringBuilder sb = new();
