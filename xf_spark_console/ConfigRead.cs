@@ -19,6 +19,7 @@ namespace xf_spark_console
             var apiConfig=new APIConfigDto();
             configuration.Bind(apiConfig);
             return apiConfig;
+
         }
     }
 }
