@@ -12,13 +12,17 @@ namespace xf_spark_console
 {
     public class ConfigRead
     {
+
         public static APIConfigDto GetApiConfigDto()
         {
+            
             IConfiguration configuration = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("APIConfig.json").Build();
             var apiConfig=new APIConfigDto();
             configuration.Bind(apiConfig);
             return apiConfig;
+
+
 
         }
     }
