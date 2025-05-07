@@ -30,6 +30,7 @@ namespace xf_spark_console.SparkDesk
             // 根据modelVersion的值，选择不同的聊天模型
             
             
+            
             switch (modelVersion)
             {
                 case "xf_v1.5":
@@ -66,7 +67,7 @@ namespace xf_spark_console.SparkDesk
             }
 
         
-
+            
             // 返回聊天结果
             return msg;
         }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace xf_spark_console.Dto
 {
     public class APIConfigDto
-    {
+    {        
         public string APIName { get; set; }
         public string APPID { get; set; }
         public string APISecret { get; set; } 
