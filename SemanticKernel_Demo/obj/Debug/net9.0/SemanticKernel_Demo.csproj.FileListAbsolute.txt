@@ -1,0 +1,15 @@
+F:\Source\DotNet_AI_Demo\SemanticKernel_Demo\bin\Debug\net9.0\SemanticKernel_Demo.exe
+F:\Source\DotNet_AI_Demo\SemanticKernel_Demo\bin\Debug\net9.0\SemanticKernel_Demo.deps.json
+F:\Source\DotNet_AI_Demo\SemanticKernel_Demo\bin\Debug\net9.0\SemanticKernel_Demo.runtimeconfig.json
+F:\Source\DotNet_AI_Demo\SemanticKernel_Demo\bin\Debug\net9.0\SemanticKernel_Demo.dll
+F:\Source\DotNet_AI_Demo\SemanticKernel_Demo\bin\Debug\net9.0\SemanticKernel_Demo.pdb
+F:\Source\DotNet_AI_Demo\SemanticKernel_Demo\obj\Debug\net9.0\SemanticKernel_Demo.GeneratedMSBuildEditorConfig.editorconfig
+F:\Source\DotNet_AI_Demo\SemanticKernel_Demo\obj\Debug\net9.0\SemanticKernel_Demo.AssemblyInfoInputs.cache
+F:\Source\DotNet_AI_Demo\SemanticKernel_Demo\obj\Debug\net9.0\SemanticKernel_Demo.AssemblyInfo.cs
+F:\Source\DotNet_AI_Demo\SemanticKernel_Demo\obj\Debug\net9.0\SemanticKernel_Demo.csproj.CoreCompileInputs.cache
+F:\Source\DotNet_AI_Demo\SemanticKernel_Demo\obj\Debug\net9.0\SemanticKernel_Demo.sourcelink.json
+F:\Source\DotNet_AI_Demo\SemanticKernel_Demo\obj\Debug\net9.0\SemanticKernel_Demo.dll
+F:\Source\DotNet_AI_Demo\SemanticKernel_Demo\obj\Debug\net9.0\refint\SemanticKernel_Demo.dll
+F:\Source\DotNet_AI_Demo\SemanticKernel_Demo\obj\Debug\net9.0\SemanticKernel_Demo.pdb
+F:\Source\DotNet_AI_Demo\SemanticKernel_Demo\obj\Debug\net9.0\SemanticKernel_Demo.genruntimeconfig.cache
+F:\Source\DotNet_AI_Demo\SemanticKernel_Demo\obj\Debug\net9.0\ref\SemanticKernel_Demo.dll
