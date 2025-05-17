@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("xf_spark_console")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("WebAPI_demo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4cfee53d8e6622066a1cdbce6756ef7544ed0c56")]
-[assembly: System.Reflection.AssemblyProductAttribute("xf_spark_console")]
-[assembly: System.Reflection.AssemblyTitleAttribute("xf_spark_console")]
+[assembly: System.Reflection.AssemblyProductAttribute("WebAPI_demo")]
+[assembly: System.Reflection.AssemblyTitleAttribute("WebAPI_demo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // 由 MSBuild WriteCodeFragment 类生成。

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Source\\DotNet_AI_Demo\\xf_spark_console\\xf_spark_console.csproj": {}
+    "F:\\Source\\DotNet_AI_Demo\\WebAPI_demo\\WebAPI_demo.csproj": {}
   },
   "projects": {
-    "F:\\Source\\DotNet_AI_Demo\\xf_spark_console\\xf_spark_console.csproj": {
+    "F:\\Source\\DotNet_AI_Demo\\WebAPI_demo\\WebAPI_demo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Source\\DotNet_AI_Demo\\xf_spark_console\\xf_spark_console.csproj",
-        "projectName": "xf_spark_console",
-        "projectPath": "F:\\Source\\DotNet_AI_Demo\\xf_spark_console\\xf_spark_console.csproj",
+        "projectUniqueName": "F:\\Source\\DotNet_AI_Demo\\WebAPI_demo\\WebAPI_demo.csproj",
+        "projectName": "WebAPI_demo",
+        "projectPath": "F:\\Source\\DotNet_AI_Demo\\WebAPI_demo\\WebAPI_demo.csproj",
         "packagesPath": "C:\\Users\\kense\\.nuget\\packages\\",
-        "outputPath": "F:\\Source\\DotNet_AI_Demo\\xf_spark_console\\obj\\",
+        "outputPath": "F:\\Source\\DotNet_AI_Demo\\WebAPI_demo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -52,17 +52,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.Extensions.Configuration.Binder": {
+            "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[8.0.1, )"
-            },
-            "Microsoft.Extensions.Configuration.Json": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "Sdcb.SparkDesk": {
-              "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[6.6.2, )"
             }
           },
           "imports": [
@@ -77,6 +69,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
