@@ -6,6 +6,10 @@
       "AbsoluteMoniker": "D:0:0:{768F2DF7-6B17-43DC-9DC9-2EEA22570005}|..\\SemanticKernel_Demo\\SemanticKernel_Demo.csproj|f:\\source\\dotnet_ai_demo\\semantickernel_demo\\apiconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6D624E34-D9D4-41DA-9C43-F3C3B446B844}|xf_spark_console.csproj|f:\\source\\dotnet_ai_demo\\xf_spark_console\\configread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D624E34-D9D4-41DA-9C43-F3C3B446B844}|xf_spark_console.csproj|solutionrelative:configread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6D624E34-D9D4-41DA-9C43-F3C3B446B844}|xf_spark_console.csproj|f:\\source\\dotnet_ai_demo\\xf_spark_console\\apiconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6D624E34-D9D4-41DA-9C43-F3C3B446B844}|xf_spark_console.csproj|solutionrelative:apiconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -26,10 +30,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6D624E34-D9D4-41DA-9C43-F3C3B446B844}|xf_spark_console.csproj|f:\\source\\dotnet_ai_demo\\xf_spark_console\\dto\\apiconfigdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D624E34-D9D4-41DA-9C43-F3C3B446B844}|xf_spark_console.csproj|solutionrelative:dto\\apiconfigdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D624E34-D9D4-41DA-9C43-F3C3B446B844}|xf_spark_console.csproj|f:\\source\\dotnet_ai_demo\\xf_spark_console\\configread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D624E34-D9D4-41DA-9C43-F3C3B446B844}|xf_spark_console.csproj|solutionrelative:configread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,14 +49,14 @@
               "RelativeDocumentMoniker": "..\\SemanticKernel_Demo\\APIConfig.json",
               "ToolTip": "F:\\Source\\DotNet_AI_Demo\\SemanticKernel_Demo\\APIConfig.json",
               "RelativeToolTip": "..\\SemanticKernel_Demo\\APIConfig.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-05-17T12:22:50.097Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "SemanticKernel_Demo",
               "DocumentMoniker": "F:\\Source\\DotNet_AI_Demo\\SemanticKernel_Demo\\SemanticKernel_Demo.csproj",
               "RelativeDocumentMoniker": "..\\SemanticKernel_Demo\\SemanticKernel_Demo.csproj",
@@ -81,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\Source\\DotNet_AI_Demo\\SemanticKernel_Demo\\Program.cs",
               "RelativeDocumentMoniker": "..\\SemanticKernel_Demo\\Program.cs",
@@ -94,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "APIConfigDto.cs",
               "DocumentMoniker": "F:\\Source\\DotNet_AI_Demo\\xf_spark_console\\Dto\\APIConfigDto.cs",
               "RelativeDocumentMoniker": "Dto\\APIConfigDto.cs",
@@ -107,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "ConfigRead.cs",
               "DocumentMoniker": "F:\\Source\\DotNet_AI_Demo\\xf_spark_console\\ConfigRead.cs",
               "RelativeDocumentMoniker": "ConfigRead.cs",
@@ -120,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "APIConfig.json",
               "DocumentMoniker": "F:\\Source\\DotNet_AI_Demo\\xf_spark_console\\APIConfig.json",
               "RelativeDocumentMoniker": "APIConfig.json",
@@ -133,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "SparkDeskApi.cs",
               "DocumentMoniker": "F:\\Source\\DotNet_AI_Demo\\xf_spark_console\\SparkDesk\\SparkDeskApi.cs",
               "RelativeDocumentMoniker": "SparkDesk\\SparkDeskApi.cs",
@@ -146,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\Source\\DotNet_AI_Demo\\xf_spark_console\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
