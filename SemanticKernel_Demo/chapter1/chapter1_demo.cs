@@ -32,6 +32,9 @@ namespace SemanticKernel_Demo.chapter1
                 endpoint: oneApiEndpoint
                 );
             kernel = builder.Build();
+
+            //添加系统提示词
+            //chatHistory.AddSystemMessage("你是一个AI助手，帮助用户解决问题。");
         }
 
         //ITextGenerationService 实现
@@ -86,6 +89,7 @@ namespace SemanticKernel_Demo.chapter1
                 var chatCompletionService = kernel.Services.GetRequiredService<IChatCompletionService>();
                 //添加用户消息到聊天记录
                 chatHistory.AddUserMessage(chatStr); 
+                
                 //获取聊天记录
                 var chatResult = chatCompletionService.GetStreamingChatMessageContentsAsync(chatHistory);
                 string response = "";
