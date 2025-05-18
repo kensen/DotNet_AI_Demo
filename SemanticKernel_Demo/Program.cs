@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using SemanticKernel_Demo.chapter1;
 using SemanticKernel_Demo.Dto;
 
 Console.WriteLine("Hello, World!");
@@ -23,7 +24,7 @@ Console.WriteLine("请输入字符（输入 'Q' 退出）：");
 //    Console.ReadLine();
 //}
 
-
+chapter1_demo chapter1 = new chapter1_demo();
 
 while (true)
 {
@@ -36,8 +37,12 @@ while (true)
     }
     else
     {
-      //  Console.WriteLine("\n等待用户输入...");
+       // chapter1.RunChat(input);
+        chapter1.RunChatStream(input);
+    
     }
+      //  Console.WriteLine("\n等待用户输入...");
+    
 }
 
 
