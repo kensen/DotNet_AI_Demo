@@ -1,9 +1,0 @@
-{
-  "APIUrl": "https://api.token-ai.cn",
-  "APIKey": "",
-  "Models": [
-    {
-      "ModelId": "1234"
-    }
-  ]
-}
