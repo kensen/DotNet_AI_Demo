@@ -2,6 +2,9 @@
 
 namespace SemanticKernel_Demo.AIRegister
 {
+    /// <summary>
+    /// AI 服务提供商实体
+    /// </summary>
     public class AiProvider
     {
         /// <summary>
@@ -36,12 +39,5 @@ namespace SemanticKernel_Demo.AIRegister
     /// <param name="Name">Api名称</param>
     /// <param name="ModelId">模型编码</param>
     /// <param name="Models">可用模型列表</param>
-    public record ApiService(string Name, string ModelId, string[]? ModelIds = null)
-    {
-        public string GetDescription() => $"{Name} (Model: {ModelId})";
-        
-        public bool IsModelAvailable(string modelId) => ModelIds?.Contains(modelId) ?? false;   
-        
-        public string[]? ModelIds { get; set; } = null; 
-    }
+    public record ApiService(string Name, string ModelId, string[]? ModelIds = null);
 }

@@ -8,6 +8,9 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace SemanticKernel_Demo.AIRegister
 {
+    /// <summary>
+    /// AiProvider 注册器基类
+    /// </summary>
     public abstract class AiProviderRegister
     {
         public abstract AiProviderType AiProviderType { get; }
@@ -35,5 +38,6 @@ namespace SemanticKernel_Demo.AIRegister
         protected abstract void RegisterChatCompletionService(IKernelBuilder builder, IServiceProvider provider, AiProvider aiProvider);
 
         protected abstract void RegisterEmbeddingService(IKernelBuilder builder, IServiceProvider provider, AiProvider aiProvider);
+
     }
 }
