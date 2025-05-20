@@ -2,6 +2,8 @@
 using SemanticKernel_Demo.chapter1;
 using SemanticKernel_Demo.Dto;
 
+System.Net.ServicePointManager.ServerCertificateValidationCallback += (sender, cert, chain, sslPolicyErrors) => true;
+
 Console.WriteLine("Hello, World!");
 
 //获取APIconfigDto 并打印
@@ -41,7 +43,7 @@ while (true)
         chapter1.RunChatStream(input);
     
     }
-      //  Console.WriteLine("\n等待用户输入...");
+      
     
 }
 
