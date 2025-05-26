@@ -6,14 +6,7 @@ System.Net.ServicePointManager.ServerCertificateValidationCallback += (sender, c
 
 Console.WriteLine("Hello, World!");
 
-//获取APIconfigDto 并打印
-var apiConfigDto = new APIconfigDto();
-Console.WriteLine(apiConfigDto.ToString());
-Console.WriteLine(apiConfigDto.APIKey);
-Console.WriteLine(apiConfigDto.APIUrl);
-Console.WriteLine(apiConfigDto.Models.FirstOrDefault().ModelId);
 
-Console.WriteLine("请输入字符（输入 'Q' 退出）：");
 //等待用户输入
 //Console.ReadLine();
 
@@ -26,7 +19,8 @@ Console.WriteLine("请输入字符（输入 'Q' 退出）：");
 //    Console.ReadLine();
 //}
 
-chapter1_demo chapter1 = new chapter1_demo();
+chapter1_demo chapter1 = new chapter1_demo("volces");
+//chapter1_demo chapter1 = new chapter1_demo();
 
 while (true)
 {

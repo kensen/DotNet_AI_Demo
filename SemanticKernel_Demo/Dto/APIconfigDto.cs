@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Microsoft.Extensions.Configuration;
+using Newtonsoft.Json;
+using SemanticKernel_Demo.AIRegister;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Microsoft.Extensions.Configuration;
-using Newtonsoft.Json;
 
 namespace SemanticKernel_Demo.Dto
 {
@@ -24,13 +25,22 @@ namespace SemanticKernel_Demo.Dto
             //APIKey = config.APIKey;
             //Models = config.Models;
 
-            IConfiguration configuration = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("APIConfig.json").Build();
-           
-            configuration.Bind(this);
-           // return apiConfig;
-           //return this
-        
+            //IConfiguration configuration = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory())
+            //    .AddJsonFile("APIConfig.json").Build();
+
+            //configuration.Bind(this); // Updated to reflect new JSON structure
+
+            //读取配置文件
+            IConfiguration configuration = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("APIConfig.json", optional: true, reloadOnChange: true)
+                .Build();   
+            
+            configuration.GetSection("APIConfig").Bind(this); // 将配置绑定到当前对象
+
+
+
+
         }
 
 

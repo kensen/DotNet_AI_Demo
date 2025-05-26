@@ -3,11 +3,14 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.ChatCompletion;
 using Microsoft.SemanticKernel.Connectors.OpenAI;
+using Microsoft.SemanticKernel.Services;
 using Microsoft.SemanticKernel.TextGeneration;
+using SemanticKernel_Demo.AIRegister;
 using SemanticKernel_Demo.Dto;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using static System.Net.Mime.MediaTypeNames;
@@ -21,6 +24,7 @@ namespace SemanticKernel_Demo.chapter1
         public APIconfigDto apiConfig = new APIconfigDto();
         public Kernel kernel;
         public ChatHistory chatHistory = new ChatHistory();
+        public IChatCompletionService chatCompletionService;
 
         public chapter1_demo() {
 
@@ -35,7 +39,38 @@ namespace SemanticKernel_Demo.chapter1
 
             //添加系统提示词
             //chatHistory.AddSystemMessage("你是一个AI助手，帮助用户解决问题。");
+
+            //获取APIconfigDto 并打印          
+            Console.WriteLine(apiConfig.ToString());
+            Console.WriteLine(apiConfig.APIKey);
+            Console.WriteLine(apiConfig.APIUrl);
+            Console.WriteLine(apiConfig.Models.FirstOrDefault().ModelId);
+
+            Console.WriteLine("请输入字符（输入 'Q' 退出）：");
+
         }
+
+        //chapter1_demo 构造函数使用 AIProviderRegisterFactory 创建 AIProviderRegister 实例,初始化Kernel对象
+        public chapter1_demo(string aiProviderCode)
+        {
+            // 初始化依赖注入容器
+            var services = new ServiceCollection();
+
+            // 注册Kernel服务
+            services.RegisterKernels();
+
+            // 构建ServiceProvider
+            var serviceProvider = services.BuildServiceProvider();
+
+            kernel= serviceProvider.GetKeyedService<Kernel>(aiProviderCode);
+
+            chatCompletionService = kernel.GetRequiredService<IChatCompletionService>();
+
+            Console.WriteLine($"Endpoint:{chatCompletionService.GetEndpoint()}");
+            Console.WriteLine($"ModelId:{chatCompletionService.GetModelId()}");
+            Console.WriteLine("请输入字符（输入 'Q' 退出）：");
+        }
+
 
         //ITextGenerationService 实现
         public async Task Run(string chatStr)
@@ -62,7 +97,7 @@ namespace SemanticKernel_Demo.chapter1
             try
             {
                 // get chat completion service
-                var chatCompletionService = kernel.Services.GetRequiredService<IChatCompletionService>();
+               // var chatCompletionService = kernel.Services.GetRequiredService<IChatCompletionService>();
 
                 //添加用户消息到聊天记录
                 chatHistory.AddUserMessage(chatStr);
@@ -86,7 +121,7 @@ namespace SemanticKernel_Demo.chapter1
             try
             {
                 // get chat completion service
-                var chatCompletionService = kernel.Services.GetRequiredService<IChatCompletionService>();
+               // var chatCompletionService = kernel.GetRequiredService<IChatCompletionService>();
                 //添加用户消息到聊天记录
                 chatHistory.AddUserMessage(chatStr); 
                 
@@ -103,6 +138,9 @@ namespace SemanticKernel_Demo.chapter1
                    
                 }
                 chatHistory.AddAssistantMessage(response);
+                
+              
+
                 Console.WriteLine();
             }
             catch (Exception ex)

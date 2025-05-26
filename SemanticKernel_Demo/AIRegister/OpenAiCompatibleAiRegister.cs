@@ -17,21 +17,21 @@ namespace SemanticKernel_Demo.AIRegister
                 return;
             }
 
-            OpenAIClientOptions clientOptions = new OpenAIClientOptions
-            {
-                Endpoint = new Uri(aiProvider.ApiEndpoint)
-            };
+            //OpenAIClientOptions clientOptions = new OpenAIClientOptions
+            //{
+            //    Endpoint = new Uri(aiProvider.ApiEndpoint)
+            //};
 
-            OpenAIClient client = new(new ApiKeyCredential(aiProvider.ApiKey), clientOptions);
+            //OpenAIClient client = new(new ApiKeyCredential(aiProvider.ApiKey), clientOptions);
 
-            builder.AddOpenAIChatCompletion(modelId: chatModelId, openAIClient: client);
+            //builder.AddOpenAIChatCompletion(modelId: chatModelId, openAIClient: client);
 
-            //// 兼容OpenAI的API通常需要自定义endpoint
-            //builder.AddOpenAIChatCompletion(
-            //    modelId: chatModelId,
-            //    apiKey: aiProvider.ApiKey,
-            //    endpoint: new Uri(aiProvider.ApiEndpoint)
-            //);
+            // 兼容OpenAI的API通常需要自定义endpoint
+            builder.AddOpenAIChatCompletion(
+                modelId: chatModelId,
+                apiKey: aiProvider.ApiKey,
+                endpoint: new Uri(aiProvider.ApiEndpoint)
+            );
         }
 
         [Experimental("SKEXP0010")]

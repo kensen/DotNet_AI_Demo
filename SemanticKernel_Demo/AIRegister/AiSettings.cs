@@ -11,10 +11,10 @@ namespace SemanticKernel_Demo.AIRegister
         {
             var configuration = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("Config/appsettings.json", optional: true, reloadOnChange: true)
+                .AddJsonFile("APIConfig.json", optional: true, reloadOnChange: true)
                 .Build();
 
-            var aiOptions = configuration.GetSection("AI").Get<AiOptions>();
+            var aiOptions = configuration.GetSection("AiOptions").Get<AiOptions>();
             return aiOptions;
         }
     }
