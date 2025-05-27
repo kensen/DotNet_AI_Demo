@@ -64,10 +64,14 @@ namespace SemanticKernel_Demo.chapter1
 
             kernel= serviceProvider.GetKeyedService<Kernel>(aiProviderCode);
 
+            var aiProvider = KernelAiProviderMap.CodeToProvider[aiProviderCode];
+
             chatCompletionService = kernel.GetRequiredService<IChatCompletionService>();
 
-            Console.WriteLine($"Endpoint:{chatCompletionService.GetEndpoint()}");
-            Console.WriteLine($"ModelId:{chatCompletionService.GetModelId()}");
+            Console.WriteLine($"Endpoint:{aiProvider.ApiEndpoint}");
+            Console.WriteLine($"Name:{aiProvider.Name}");
+            Console.WriteLine($"ModelId:{aiProvider.GetChatCompletionApiService()?.ModelId}");            
+            
             Console.WriteLine("请输入字符（输入 'Q' 退出）：");
         }
 

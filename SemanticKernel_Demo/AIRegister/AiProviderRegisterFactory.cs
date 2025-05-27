@@ -37,4 +37,10 @@ namespace SemanticKernel_Demo.AIRegister
         }
     }
 
+
+    public static class KernelAiProviderMap
+    {
+        public static readonly Dictionary<string, AiProvider> CodeToProvider = new();
+    }
+
 }

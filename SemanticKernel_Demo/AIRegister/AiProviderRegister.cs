@@ -19,7 +19,9 @@ namespace SemanticKernel_Demo.AIRegister
         {
             // 为指定AiProvider 注册专用Kernel服务
             services.AddKeyedTransient<Kernel>(aiProvider.Code, (sp, key) => BuildKernel(sp, aiProvider));
-        
+            // 建立映射
+            KernelAiProviderMap.CodeToProvider[aiProvider.Code] = aiProvider;
+
         }
 
         public virtual Kernel BuildKernel(IServiceProvider serviceProvider, AiProvider aiProvider)
