@@ -2,7 +2,7 @@
 using SemanticKernel_Demo.chapter1;
 using SemanticKernel_Demo.Dto;
 
-System.Net.ServicePointManager.ServerCertificateValidationCallback += (sender, cert, chain, sslPolicyErrors) => true;
+//System.Net.ServicePointManager.ServerCertificateValidationCallback += (sender, cert, chain, sslPolicyErrors) => true;
 
 Console.WriteLine("Hello, World!");
 

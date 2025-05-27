@@ -15,12 +15,13 @@ namespace SemanticKernel_Demo.AIRegister
     {
         public abstract AiProviderType AiProviderType { get; }
 
-        public virtual void Register(IServiceCollection services,AiProvider aiProvider)
+        public virtual void Register(IServiceCollection services, AiProvider aiProvider)
         {
             // 为指定AiProvider 注册专用Kernel服务
-            services.AddKeyedTransient<Kernel>(aiProvider.Code, (sp, key) => BuildKernel(sp, aiProvider));
+            services.AddKeyedTransient<Kernel>(aiProvider.Code, (sp, key) => BuildKernel(sp, aiProvider));            
             // 建立映射
-            KernelAiProviderMap.CodeToProvider[aiProvider.Code] = aiProvider;
+            KernelAiProviderMap.CodeToProvider[aiProvider.Code] = aiProvider;            
+
 
         }
 
