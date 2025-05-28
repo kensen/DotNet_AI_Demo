@@ -1,5 +1,6 @@
 ﻿using Azure;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.ChatCompletion;
 using Microsoft.SemanticKernel.Connectors.OpenAI;
@@ -25,6 +26,7 @@ namespace SemanticKernel_Demo.chapter1
         public Kernel kernel;
         public ChatHistory chatHistory = new ChatHistory();
         public IChatCompletionService chatCompletionService;
+        private readonly ILogger<chapter1_demo> _logger;
 
         public chapter1_demo() {
 
@@ -56,9 +58,12 @@ namespace SemanticKernel_Demo.chapter1
             // 初始化依赖注入容器
             var services = new ServiceCollection();
 
+            // 注册全局日志服务
+            services.AddNLogging();
+
             // 注册Kernel服务
             services.RegisterKernels();
-
+           
             // 构建ServiceProvider
             var serviceProvider = services.BuildServiceProvider();
 
@@ -66,13 +71,18 @@ namespace SemanticKernel_Demo.chapter1
 
             var aiProvider = KernelAiProviderMap.CodeToProvider[aiProviderCode];
 
-            chatCompletionService = kernel.GetRequiredService<IChatCompletionService>();
+             chatCompletionService = kernel.GetRequiredService<IChatCompletionService>();
 
             Console.WriteLine($"Endpoint:{aiProvider.ApiEndpoint}");
             Console.WriteLine($"Name:{aiProvider.Name}");
             Console.WriteLine($"ModelId:{aiProvider.GetChatCompletionApiService()?.ModelId}");            
             
             Console.WriteLine("请输入字符（输入 'Q' 退出）：");
+
+            var response = kernel.InvokePromptAsync("一句话简单介绍ML.NET。");
+
+            _logger = kernel.GetRequiredService<ILogger<chapter1_demo>>();
+            _logger.LogInformation("测试日志写入");
         }
 
 
@@ -106,9 +116,20 @@ namespace SemanticKernel_Demo.chapter1
                 //添加用户消息到聊天记录
                 chatHistory.AddUserMessage(chatStr);
 
+                var json = Newtonsoft.Json.JsonConvert.SerializeObject(
+                chatHistory,
+                new Newtonsoft.Json.JsonSerializerSettings
+                {
+                    StringEscapeHandling = Newtonsoft.Json.StringEscapeHandling.Default
+                });
+                _logger.LogInformation("ChatHistory: {ChatHistory}", json);
+
                 //获取聊天记录
                 var chat = await chatCompletionService.GetChatMessageContentAsync(chatHistory);
                 Console.WriteLine($"AI:{chat.Content}");
+
+                // 记录AI返回内容
+                _logger.LogInformation("AI返回内容: {Content}", chat.Content);
 
                 //添加助手消息到聊天记录
                 chatHistory.AddAssistantMessage(chat.Content);
@@ -127,8 +148,17 @@ namespace SemanticKernel_Demo.chapter1
                 // get chat completion service
                // var chatCompletionService = kernel.GetRequiredService<IChatCompletionService>();
                 //添加用户消息到聊天记录
-                chatHistory.AddUserMessage(chatStr); 
-                
+                chatHistory.AddUserMessage(chatStr);
+
+                //var json = Newtonsoft.Json.JsonConvert.SerializeObject(
+                //  chatHistory,
+                //  new Newtonsoft.Json.JsonSerializerSettings
+                //  {
+                //      StringEscapeHandling = Newtonsoft.Json.StringEscapeHandling.Default
+                //  });
+                //    _logger.LogInformation("ChatHistory: {ChatHistory}", json);
+
+
                 //获取聊天记录
                 var chatResult = chatCompletionService.GetStreamingChatMessageContentsAsync(chatHistory);
                 string response = "";
@@ -142,8 +172,10 @@ namespace SemanticKernel_Demo.chapter1
                    
                 }
                 chatHistory.AddAssistantMessage(response);
-                
-              
+
+                _logger.LogInformation("AI返回内容: {Content}", response);
+
+
 
                 Console.WriteLine();
             }

@@ -30,6 +30,9 @@ namespace SemanticKernel_Demo.AIRegister
             // 创建Kernel构建器
             var builder = Kernel.CreateBuilder();
 
+            // 注册日志服务
+            builder.Services.AddNLogging();
+
             RegisterChatCompletionService(builder, serviceProvider, aiProvider);
             RegisterEmbeddingService(builder, serviceProvider, aiProvider);
 
