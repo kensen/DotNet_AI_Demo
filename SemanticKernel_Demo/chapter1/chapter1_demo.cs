@@ -112,7 +112,6 @@ namespace SemanticKernel_Demo.chapter1
             {
                 // get chat completion service
                // var chatCompletionService = kernel.Services.GetRequiredService<IChatCompletionService>();
-
                 //添加用户消息到聊天记录
                 chatHistory.AddUserMessage(chatStr);
 
