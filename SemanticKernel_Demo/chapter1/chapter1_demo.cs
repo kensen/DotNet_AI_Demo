@@ -132,6 +132,7 @@ namespace SemanticKernel_Demo.chapter1
 
                 //添加助手消息到聊天记录
                 chatHistory.AddAssistantMessage(chat.Content);
+
             }
             catch (Exception ex)
             {
