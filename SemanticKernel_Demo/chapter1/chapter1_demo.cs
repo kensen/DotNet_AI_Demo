@@ -174,7 +174,6 @@ namespace SemanticKernel_Demo.chapter1
 
                 _logger.LogInformation("AI返回内容: {Content}", response);
 
-
                 Console.WriteLine();
             }
             catch (Exception ex)
