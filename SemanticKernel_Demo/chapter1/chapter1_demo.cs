@@ -50,6 +50,7 @@ namespace SemanticKernel_Demo.chapter1
 
             Console.WriteLine("请输入字符（输入 'Q' 退出）：");
 
+
         }
 
         //chapter1_demo 构造函数使用 AIProviderRegisterFactory 创建 AIProviderRegister 实例,初始化Kernel对象
