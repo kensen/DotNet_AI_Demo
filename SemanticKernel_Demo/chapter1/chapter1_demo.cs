@@ -47,7 +47,6 @@ namespace SemanticKernel_Demo.chapter1
             Console.WriteLine(apiConfig.APIKey);
             Console.WriteLine(apiConfig.APIUrl);
             Console.WriteLine(apiConfig.Models.FirstOrDefault().ModelId);
-
             Console.WriteLine("请输入字符（输入 'Q' 退出）：");
 
 
