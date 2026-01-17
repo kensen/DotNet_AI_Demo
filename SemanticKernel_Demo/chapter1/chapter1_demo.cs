@@ -83,6 +83,7 @@ namespace SemanticKernel_Demo.chapter1
 
             _logger = kernel.GetRequiredService<ILogger<chapter1_demo>>();
             _logger.LogInformation("测试日志写入");
+
         }
 
 
