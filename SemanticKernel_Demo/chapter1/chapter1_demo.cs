@@ -81,7 +81,6 @@ namespace SemanticKernel_Demo.chapter1
 
             var response = kernel.InvokePromptAsync("一句话简单介绍ML.NET。");
 
-
             _logger = kernel.GetRequiredService<ILogger<chapter1_demo>>();
             _logger.LogInformation("测试日志写入");
 
